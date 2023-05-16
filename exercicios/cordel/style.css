@@ -1,0 +1,92 @@
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    color: white;
+    margin: 0;
+    font-family: var(--fonte1);
+    text-align: center;
+    padding: 70px;
+}
+
+header > p {
+    font-size: medium;
+    font-family: var(--fonte1);
+    padding-top: 20px;
+}
+
+p > a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+section {
+    height: fit-content;
+    margin: auto;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    padding: 50px;
+}
+
+footer {
+    background: black;
+    color: white;
+}
+
+section#sec2 {
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    color: white;
+    padding: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#sec4 {
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    color: white;
+    padding: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#div2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: rgba(48, 47, 47, 0.297);
+    height: fit-content;
+    width: fit-content;
+}
+
+div#div4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: rgba(0, 0, 0, 0.352);
+    height: fit-content;
+    width: fit-content;
+}
+
+footer {
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+}
