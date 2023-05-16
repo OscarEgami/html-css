@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
@@ -16,6 +18,7 @@ header {
     font-family: var(--fonte1);
     text-align: center;
     padding: 70px;
+    font-size: 3vw;
 }
 
 header > p {
@@ -29,17 +32,26 @@ p > a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 body {
-    font-size: 3vw;
+    min-height: 100vh;
     font-weight: bold;
 }
 
 section {
-    height: fit-content;
-    margin: auto;
-    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 50px;
+    line-height: 1.5em;
     font-family: var(--fonte3);
-    padding: 50px;
+    font-size: 3vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 footer {
@@ -54,6 +66,7 @@ section#sec2 {
     padding: 50px;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0 black;
 }
 
 section#sec4 {
@@ -63,26 +76,25 @@ section#sec4 {
     padding: 50px;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0 black;
 }
 
-div#div2 {
+p#p2 {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 3px;
     padding-right: 3px;
     background-color: rgba(48, 47, 47, 0.297);
-    height: fit-content;
-    width: fit-content;
+    display: inline-block;
 }
 
-div#div4 {
+p#p4 {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 3px;
     padding-right: 3px;
     background-color: rgba(0, 0, 0, 0.352);
-    height: fit-content;
-    width: fit-content;
+    display: inline-block;
 }
 
 footer {
